@@ -1,0 +1,142 @@
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+/.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# Production & Build Output
+# ============================================
+/dist
+/build
+/dist-ssr
+*.local
+.cache/
+.parcel-cache
+.next
+out/
+
+# ============================================
+# Environment Variables (NEVER commit sensitive data)
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.example
+
+# ============================================
+# Logs and Temporary Files
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.eslintcache
+
+# ============================================
+# IDE & Editor Settings
+# ============================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+.vim/
+.emacs.d/
+*.sublime-project
+*.sublime-workspace
+.prettierignore
+.eslintignore
+
+# ============================================
+# OS-specific Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Testing
+# ============================================
+/coverage
+.nyc_output
+jest.config.js.snap
+.test-results/
+.cypress/
+cypress/videos/
+cypress/screenshots/
+
+# ============================================
+# Node & Package Manager
+# ============================================
+.node_repl_history
+npm-shrinkwrap.json
+*.tsbuildinfo
+
+# ============================================
+# Yarn Berry
+# ============================================
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ============================================
+# Vercel & Deployment
+# ============================================
+.vercel
+.output
+dist-ssr
+
+# ============================================
+# IDE Specific
+# ============================================
+.classpath
+.c9/
+*.launch
+.settings/
+.vscode-test
+.vscode-test/
+
+# ============================================
+# Local Development
+# ============================================
+.tmp/
+*.temp
+.debug/
+.hot-reload/
+
+# ============================================
+# Misc
+# ============================================
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows shortcuts
+*.lnk
+
